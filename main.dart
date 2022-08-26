@@ -59,8 +59,8 @@ class _AnaEkranState extends State<AnaEkran> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(blogYazisi),
-            RaisedButton(onPressed: martGoster,child: Text("mart yazısı"),),
-            ElevatedButton(onPressed: nisanGoster, child: Text("nisan yazısı"),)
+            RaisedButton(onPressed: martGoster,child: Text("mart yazısı ++++"),),
+            ElevatedButton(onPressed: nisanGoster, child: Text("nisan yazısı ----"),)
           ],
         ),
       ),
